@@ -1,0 +1,763 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Luigi's Pizzeria</title>
+    <link href="../generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<link rel="stylesheet" type="text/css" href="/styles.css" />
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write(unescape('%3Cscript src="http://jquery.com/jquery-wp-content/themes/jquery/js/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
+	<script src="http://code.jquery.com/jquery-migrate-1.0.0.min.js"></script>
+    <script>
+	
+	  // When the document loads do everything inside here ...
+	  $(document).ready(function(){
+		
+		// When a link is clicked
+		$("a.tab").click(function () {
+			
+			
+			// switch all tabs off
+			$(".active").removeClass("active");
+			
+			// switch this tab on
+			$(this).addClass("active");
+			
+			// slide all content up
+			$(".content").slideUp();
+			
+			// slide this content up
+			var content_show = $(this).attr("title");
+			$("#"+content_show).slideDown();
+		  
+		});
+	
+	  });
+  </script>
+  
+
+</head>
+
+<body>
+
+<div id="header">
+         
+          <div id="logo"> 
+          </div>
+        
+        <div id="nav">
+         <a href="../index.html">HOME</a>
+         <a href="../pages/about.html">ABOUT</a><a class="active" href="../pages/menu.html">MENU</a><a href="../pages/gallery.html">GALLERY</a><a href="../pages/contact.html">CONTACT</a>
+  	</div>
+
+      </div>
+
+
+<div id="container4">
+
+<div id="left-container">
+              
+
+<div id="contentcenter">
+    
+<p>Welcome to Luigi&#39;s Pizzeria</p>
+<div id="menuu">
+We prepare every order fresh from the best available ingredients. 
+
+</div>
+
+	<div id="tabbed_box_1" class="tabbed_box">
+    <div class="tabbed_area">
+    
+    	
+       <ul class="tabs">
+            <li><a href="#" title="content_1" class="tab active">APPETIZERS</a></li>
+            <li><a href="#" title="content_2" class="tab">PIZZA</a></li>
+            <li><a href="#" title="content_3" class="tab">SALADS</a></li>
+            <li><a href="#" title="content_4" class="tab">HEROS</a></li>
+            <li><a href="#" title="content_5" class="tab">CALZONE</a></li><br /><br />
+            <li><a href="#" title="content_6" class="tab">PASTA</a></li>
+            <li><a href="#" title="content_7" class="tab">PASTA SPECIALS</a></li>
+            <li><a href="#" title="content_8" class="tab">BAKED DISHES</a></li>
+            <li><a href="#" title="content_9" class="tab">ENTREES</a></li><br /><br />
+            <li><a href="#" title="content_10" class="tab">SAUSAGES</a></li>
+            <li><a href="#" title="content_11" class="tab">DRINKS</a></li>
+            <li><a href="#" title="content_12" class="tab">DESSERTS</a></li>
+            <li><a href="#" title="content_13" class="tab">CATERING MENU</a></li>
+        </ul>
+        
+        <div id="content_1" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  				<tr>
+    				<th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">APPETIZERS</span></th>
+    				<th scope="col">&nbsp;</th>
+  				</tr>
+  				<tr>
+    				<td><strong>Garlic Knots</strong><br /></td>
+    				<td align="right" valign="bottom">4/$1.00</td>
+  				</tr>
+  				<tr>
+    				<td><strong>Garlic Bread</strong><br /></td>
+    				<td align="right" valign="bottom">$2.25</td>
+  				</tr>
+  				<tr>
+    				<td><strong>Garlic Bread w/ Cheese</strong><br /></td>
+    				<td align="right" valign="bottom">$3.25</td>
+  				</tr>
+  				<tr>
+    				<td><strong>Beef Pattie</strong><br /></td>
+    				<td align="right" valign="bottom">$2.25</td>
+  				</tr>
+  				<tr>
+    				<td><strong>Beef Pattie w/ Cheese</strong></td>
+    				<td align="right" valign="bottom">$2.75</td>
+  				</tr>
+  				<tr>
+    				<td><strong>Fried Calamari</strong><br />Served w/ tomato sauce on side</td>
+    				<td align="right" valign="bottom">$9.00</td>
+  				</tr>
+  				<tr>
+    				<td><strong>Mozzarella Sticks</strong><br />Served w/ tomato sauce on side</td>
+    				<td align="right" valign="bottom">$6.50</td>
+  				</tr>
+  				<tr>
+    				<td><strong>Zucchini Sticks</strong><br />Served w/ tomato sauce on side</td>
+    				<td align="right" valign="bottom">$5.25</td>
+  				</tr>
+    				<td><strong>Buffalo Wings</strong><br />Served w/ blue cheese and celery</td>
+    				<td align="right" valign="bottom">$7.50</td>
+  				</tr>
+    				<td><strong>Soup of the Day</strong><br />Served w/ bread and butter</td>
+    				<td align="right" valign="bottom">$5.00</td>
+  				</tr>
+    				<td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Extra Sauce $.50 Extra Blue Cheese $.50</td>
+    				</tr>
+<tr><td><strong>Luigi's Vegetable (plate)</strong><br />Broccoli, zucchini, spinach, sauteed in garlic and oil.(Add grilled chicken $3.50)    &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp  Sm.$6.75</td>
+<td align="right" valign="bottom">$8.75</td>
+  				</tr>
+ <tr>
+    <td>&nbsp &nbsp<img src="../images/appetizer-pizza.png" width="400" /> </td>
+   
+  </tr>
+
+			</table>
+            
+            <br />
+      
+            
+        <img src="dough.png" />
+            
+        </div> <!-- div content 1 -->
+        
+        <div id="content_2" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  				<tr>
+    				<th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">PIZZA</span></th>
+    				<th scope="col">&nbsp;</th>
+  				</tr>
+  				<tr>
+    <td><strong>Insalata Pizza</strong><br />airy pizza dough, filled with spring mix, artichokes, prosciutto di parma, gaeta olives and extra virgin olive oil</td>
+    <td align="right" valign="bottom">13</td>
+  </tr>
+  <tr>
+    <td><strong>Della Casa</strong><br />spring mix, homemade mozzarella, grape tomatoes, balsamic dressing (V)</td>
+    <td align="right" valign="bottom">7</td>
+  </tr>
+  <tr>
+    <td><strong>Fresca</strong><br />baby arugula, grape tomatoes, parmigiano reggiano, balsamic dressing (V)</td>
+    <td align="right" valign="bottom">8</td>
+  </tr>
+  <tr>
+    <td><strong>Toscana</strong><br />spring mix, fresh pear, walnuts, lemon, extra virgin olive oil (VE)</td>
+    <td align="right" valign="bottom">8</td>
+  </tr>
+  <tr>
+    <td><strong>Rustica</strong><br />spring mix, prosciutto di parma, artichokes, gaeta olives, lemon, extra virgin olive oil</td>
+    <td align="right" valign="bottom">10</td>
+  </tr>
+  <tr>
+    <td><strong>Siciliana</strong><br />fresh fennel, oranges, gaeta olives, lemon, extra virgin olive oil (VE)</td>
+    <td align="right" valign="bottom">9</td>
+  </tr>
+  <tr>
+    <td><strong>Val Gardena</strong><br />spring mix, apples, pancetta, gorgonzola, extra virgin olive oil</td>
+    <td align="right" valign="bottom">11</td>
+  </tr>
+  <tr>
+    <td><strong>Insalata di Formaggi</strong><br />goat cheese and fresh mixed berries, drizzled with honey (V)</td>
+    <td align="right" valign="bottom">15</td>
+  </tr>
+</table>
+  <br />
+<tr>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp<img src="../images/oven.jpg" /></td>
+   
+  </tr>
+
+        </div>
+
+
+
+
+
+        
+        <div id="content_3" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">SALADS</th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Extra Dressing $0.50 &nbsp&nbsp&nbsp   Extra Vegetable $1.00</td>
+  </tr>
+  <tr>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Small </td>
+ <td align="right" valign="bottom">Large</td>
+  </tr>
+  <tr>
+    <td><strong>Mixed Green</strong><br />Lettuce, tomato, cucumber, peppers, <br />onion and olives &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp $5.00 </td>
+    <td align="right" valign="bottom">$6.50</td>
+  </tr>
+  <tr>
+    <td><strong>Caesar Salad</strong> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp $5.00 </td>
+    <td align="right" valign="bottom">$6.50</td>
+  </tr>
+  <tr>
+    <td><strong>Tuna Salad</strong> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp $7.00 </td>
+    <td align="right" valign="bottom">$8.50</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken Salad</strong> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp $8.00 </td>
+    <td align="right" valign="bottom">$9.50</td>
+  </tr>
+  <tr>
+    <td><strong>Grilled Chicken Salad</strong>   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp $8.00 </td>
+    <td align="right" valign="bottom">$9.50</td>
+  </tr>
+  <tr>
+    <td><strong>Chef Salad</strong><br />Mixed with ham, salami, provolone and egg</td> <td align="right" valign="bottom">$9.50</td>
+  </tr>
+  <tr>
+    <td><strong>Chef with Chicken</strong><br /></td> <td align="right" valign="bottom">$12.00</td>
+  </tr>
+  <tr>
+    <td><strong>Chef with Grilled Chicken</strong><br /></td> <td align="right" valign="bottom">$12.00</td>
+  </tr>
+<tr>
+    <td><br /></td>   </tr>
+  <tr>
+    <td>All Salads served with bread and butter. Choice of dressing Italian, French, Ranch, Blue Cheese and Ceasar</td>   </tr>
+<tr>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp<img src="../images/saladss.jpg" /></td>
+   
+  </tr>
+
+</table>
+  <br />
+<img src="smalldough.png" />
+        </div>
+        
+        <div id="content_4" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">YOUR FAVORITE HEROS</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td><strong>Meatball Parmagiana</strong><br /></td> <td align="right" valign="bottom">$7.50</td>
+  </tr>
+  <tr>
+    <td><strong>Sausage and Peppers</strong><br /></td> <td align="right" valign="bottom">$7.50</td>
+  </tr>
+  <tr>
+    <td><strong>Eggplant Parmagiana</strong><br /></td> <td align="right" valign="bottom">$7.50</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken parmagiana</strong><br /></td> <td align="right" valign="bottom">$8.00</td>
+  </tr>
+
+</table>
+  <br />
+<img src="sauce.png" />
+
+        </div>
+        
+        <div id="content_5" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">YOUR FAVORITE HEROS</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td><strong>Cheese Calzone</strong><br /></td> <td align="right" valign="bottom">$5.25</td>
+  </tr>
+  <tr>
+    <td><strong>Calzone with topping</strong><br /></td> <td align="right" valign="bottom">$6.00</td>
+  </tr>
+  <tr>
+    <td><strong>Calzone with Chicken</strong><br /></td> <td align="right" valign="bottom">$7.25</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken Roll</strong><br /></td> <td align="right" valign="bottom">$6.25</td>
+  </tr>
+  <tr>
+    <td><strong>Stomboli</strong><br /></td> <td align="right" valign="bottom">$6.25</td>
+  </tr>
+  <tr>
+    <td><strong>Spinach Roll</strong><br /> </td> <td align="right" valign="bottom">$6.25</td>
+  </tr>
+  <tr>
+    <td><strong>Roll of the Day</strong><br /></td> <td align="right" valign="bottom">$6.25</td>
+  </tr>
+  <tr>
+    <td><strong>Extra Ingredient</strong><br /> </td> <td align="right" valign="bottom">$0.75</td>
+  </tr>
+
+<tr>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp<img src="../images/calzone.jpg" /></td>
+   
+  </tr>
+  
+   </table>
+            
+            <br />
+      
+            
+
+
+
+        </div>
+        
+        <div id="content_6" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">PASTA</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbspChoice of Spaghetti, Ziti or Linguini <br />
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(Tortellini or Gnocchi $1.50 Extra) </td>
+      </tr>
+  <tr>
+    <td><strong>Tomato Sauce</strong><br /></td> <td align="right" valign="bottom">$7.00</td>
+  </tr>
+  <tr>
+    <td><strong>Garlic and Olive oil</strong><br /></td> <td align="right" valign="bottom">$8.00</td>
+  </tr>
+  <tr>
+    <td><strong>Marinara Sauce</strong><br /></td> <td align="right" valign="bottom">$8.00</td>
+  </tr>
+  <tr>
+    <td><strong>Meat Sauce</strong><br /></td> <td align="right" valign="bottom">$9.00</td>
+  </tr>
+  <tr>
+    <td><strong>Meat Balls</strong><br /></td> <td align="right" valign="bottom">$9.50</td>
+  </tr>
+  <tr>
+    <td><strong>Fresh Mushroom</strong><br /> </td> <td align="right" valign="bottom">$9.50</td>
+  </tr>
+  <tr>
+    <td><strong>Clam Sauce</strong><br />Add grilled chicken for $3.50</td> <td align="right" valign="bottom">$10.00</td>
+  </tr>
+  <tr>
+    <td><strong>Calamari Fra Diavolo</strong><br />Combination of Fresh Broccoli</td> <td align="right" valign="bottom">$11.00</td>
+  </tr>
+  <tr>
+    <td><strong>Zucchini or Spinach</strong><br /> </td> <td align="right" valign="bottom">$9.50</td>
+  </tr>
+  <tr>
+    <td><strong>Primavera</strong><br /> </td> <td align="right" valign="bottom">$11.50</td>
+  </tr>
+  <tr>
+    <td><strong>Shrimp Fra Diavolo</strong><br /> </td> <td align="right" valign="bottom">$15.00</td>
+  </tr>
+  <tr>
+    <td><strong>Shrimp Scampi</strong><br /> </td> <td align="right" valign="bottom">$15.00</td>
+  </tr>
+
+ <tr>
+    <td>&nbsp &nbsp<img src="../images/pasta.jpg" width="300" /> </td>
+   
+  </tr>
+
+</table>
+  <br />
+<img src="oven.png" />
+
+        </div>
+        
+        <div id="content_7" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">PASTA SPECIALS</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+    <tr>
+    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp&nbspChoice of Penne or Fettuccine <br />
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(Tortellini or Gnocchi $1.50 Extra) </td>
+      </tr>
+    <tr>
+    <td><strong>Vodka Sauce</strong><br /> </td> <td align="right" valign="bottom">$10.25</td>
+  </tr>
+  <tr>
+    <td><strong>Alfredo Sauce</strong><br /> </td> <td align="right" valign="bottom">$10.25</td>
+  </tr>
+  <tr>
+    <td><strong>Bolognese Sauce</strong><br /> </td> <td align="right" valign="bottom">$10.25</td>
+  </tr>
+  <tr>
+        <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp Add grilled chicken to any dish $3.50 <br />
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Add fresh broccoli or musroom $2.50 </td>
+  </tr>
+
+</table>
+  <br />
+<img src="sauce.png" />
+</div>
+
+
+        <div id="content_8" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">BAKED DISHES</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td><strong>Lasagna</strong><br /></td> <td align="right" valign="bottom">$9.00</td>
+  </tr>
+  <tr>
+    <td><strong>Baked Ziti</strong><br /></td> <td align="right" valign="bottom">$9.00</td>
+  </tr>
+  <tr>
+    <td><strong>Cheese Ravioli</strong><br /></td> <td align="right" valign="bottom">$8.00</td>
+  </tr>
+  <tr>
+    <td><strong>Maniicotti</strong><br /></td> <td align="right" valign="bottom">$8.00</td>
+  </tr>
+  <tr>
+    <td><strong>Stuffed Shells</strong><br /></td> <td align="right" valign="bottom">$9.00</td>
+  </tr>
+  </tr>
+  <tr>
+    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAdd meat sauce $2.00   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    Add Meat Balls $3.00 </td>  </tr>
+  </tr>
+<tr>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp<img src="../images/lasagna.jpg" /></td>
+   
+  </tr>
+</table>
+  <br />
+<img src="sauce.png" />
+
+        </div>
+
+
+        <div id="content_9" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">ENTREES</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td><strong>Eggplant Parmigiana</strong><br /></td> <td align="right" valign="bottom">$12.00</td>
+  </tr>
+  <tr>
+    <td><strong>Eggplant Rollatini</strong><br /></td> <td align="right" valign="bottom">$13.00</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken Cutle Parmigiana</strong><br /></td> <td align="right" valign="bottom">$13.00</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken Marsala and Mushroom</strong><br /></td> <td align="right" valign="bottom">$14.00</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken Francese</strong><br /></td> <td align="right" valign="bottom">$14.00</td>
+  </tr>
+ 
+  <tr>
+    <td><strong>Veal Cutlet Parmigiana</strong><br /></td> <td align="right" valign="bottom">$15.00</td>
+  </tr>
+ 
+  <tr>
+    <td><strong>Veal Peppers</strong><br /></td> <td align="right" valign="bottom">$15.00</td>
+  </tr>
+  
+  <tr>
+    <td><strong>Veal Francese</strong><br /></td> <td align="right" valign="bottom">$16.00</td>
+  </tr>
+ 
+  <tr>
+    <td><strong>Veal Marasala and Mushroom</strong><br /></td> <td align="right" valign="bottom">$16.00</td>
+  </tr>
+  <tr>
+    <td><strong>Shrimp Parmigiana</strong><br /></td> <td align="right" valign="bottom">$15.00</td>
+  </tr>
+    <tr>
+    <td><strong>Shrimp Francese</strong><br /></td> <td align="right" valign="bottom">$15.00</td>
+  </tr>
+    <tr>
+    <td><strong>Filet of Sole francese</strong><br /></td> <td align="right" valign="bottom">$13.00</td>
+  </tr>
+  <tr>
+    <td><strong>Breaded Fish Filet</strong><br /></td> <td align="right" valign="bottom">$13.00</td>
+  </tr>
+    <tr>
+    <td><strong>Seafood Special</strong><br />Shrimp, clams and calamari</td> <td align="right" valign="bottom">$16.00</td>
+  </tr>
+<tr><td>
+<br />
+</td></tr>
+
+<tr>
+    <td>Entrees served with choice of salad or spaghetti or ziti tomato sauce. Additional charge for other sauces. Garlic and oil or marinara $2.00. Meat sauce $2.50. Clam sauce $3.00. Vodka sauce $3.00. Alfredo sauce $3.00 </td> 
+  </tr>
+  
+
+<tr>
+    <td>&nbsp &nbsp<img src="../images/entree.jpg" width="400" /> </td>
+   
+  </tr>
+
+</table>
+  <br />
+
+        </div>
+
+
+        <div id="content_10" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">SAUSAGES TO GO (16 oz.)</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td><strong>Tomato Sauce</strong><br /></td> <td align="right" valign="bottom">$5.00</td>
+  </tr>
+  <tr>
+    <td><strong>Meat Sauce</strong><br /></td> <td align="right" valign="bottom">$6.00</td>
+  </tr>
+  <tr>
+    <td><strong>Alfredo Sauce</strong><br /></td> <td align="right" valign="bottom">$7.00</td>
+  </tr>
+  <tr>
+    <td><strong>Marinara Sauce</strong><br /></td> <td align="right" valign="bottom">$6.00</td>
+  </tr>
+  <tr>
+    <td><strong>Vodka Sauce</strong><br /></td> <td align="right" valign="bottom">$7.00</td>
+  </tr>
+  <tr>
+    <td><strong>Bolognese Sauce</strong><br /> </td> <td align="right" valign="bottom">$7.00</td>
+  </tr>
+  
+<tr>
+    <td>&nbsp &nbsp<img src="../images/sausage.jpg" width="300" /> </td>
+   
+  </tr>  
+
+   </table>
+            
+            <br />
+      
+            
+        <img src="dough.png" />
+
+
+        </div>
+
+
+
+        <div id="content_11" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">DRINKS (16 oz.)</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td><strong>Beer</strong><br />Corona, Bud, Bud Light, Amstel Light, Heineken</td>
+  </tr>
+  <tr>
+    <td><br /></td>
+  </tr>
+  <tr>
+    <td><strong>Wines</strong><br /><b>Red:</b>Merlot and Cabernet Sauvignon</td>
+  </tr>
+  <tr>
+    <td><b>White:</b>Pinot Grigio and Chardonnay</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp<img src="../images/beers-pizza.jpg" /></td>
+   
+  </tr>
+  
+   </table>
+            
+            <br />
+      
+            
+        <img src="dough.png" />
+
+
+        </div>
+
+
+
+
+
+        <div id="content_12" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">DESSERTS</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td><strong>Cannoli</strong><br /></td> <td align="right" valign="bottom">$2.50</td>
+  </tr>
+  <tr>
+    <td><strong>Tiramisu</strong><br /></td> <td align="right" valign="bottom">$3.50</td>
+  </tr>
+  <tr>
+    <td><br /></td>
+  </tr>
+  <tr>
+    <td>We now carry Gino's Italian Ices</td>
+  </tr>
+
+<br>  <br>
+  <tr>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp<img src="../images/dessert.jpg" width="300" /></td>
+   
+  </tr>
+  
+   </table>
+            
+            <br />
+      
+
+
+
+        </div>
+
+
+        <div id="content_13" class="content">
+        	<table width="90%" border="0" align="center" style="margin:auto;">
+  <tr>
+    <th scope="col" width="90%"><span style="font-size:14px; text-transform:uppercase; text-decoration:underline;">LUIGI'S PIZZERIA AND RISTORANTE CATERING MENU</span></th>
+    <th scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td> </td> <td align="right" valign="center"><br />1/2 Tray<br />(8-10)<br /> Persons <td>&nbsp  &nbsp  &nbsp  &nbsp     </td>
+</td>  &nbsp   <td align="right" valign="bottom">Full&nbspTray<br />
+(16-18)<br /> Persons</td>
+
+  </tr>
+  <tr>
+    <td><strong>Mixed Green Salad</strong><br /></td> <td align="center" valign="bottom">$35</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$65</td>
+  </tr>
+  <tr>
+    <td><strong>Antipasto Salad</strong><br /></td> <td align="center" valign="bottom">$45</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$85</td>
+  </tr>
+  <tr>
+    <td><strong>Grilled Chicken Salad</strong><br /></td> <td align="center" valign="bottom">$45</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$85</td>
+  </tr>
+  <tr>
+    <td><strong>Linguini w/ White or red clam sauce</strong><br /></td> <td align="center" valign="bottom">$50</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$95</td>
+  </tr>
+  <tr>
+    <td><strong>Fettucine Alfredo</strong><br /></td> <td align="center" valign="bottom">$50</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$95</td>
+  </tr>
+  <tr>
+    <td><strong>Penne Vodka</strong><br /></td> <td align="center" valign="bottom">$50</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$95</td>
+  </tr>
+    <tr>
+    <td><strong>Penne Vodka with Grilled Chicken</strong><br /></td> <td align="center" valign="bottom">$65</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$130</td>
+  </tr>
+  <tr>
+    <td><strong>Pasta with Fresh Vegetables</strong><br /></td> <td align="center" valign="bottom">$50</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$95</td>
+  </tr>
+  <tr>
+    <td><strong>Baked Ziti</strong><br /></td> <td align="center" valign="bottom">$45</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$85</td>
+  </tr>  
+  <tr>
+    <td><strong>Pasta with Tomato Sauce</strong><br /></td> <td align="center" valign="bottom">$40</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$75</td>
+  </tr>
+  <tr>
+    <td><strong>Lasagna</strong><br /></td> <td align="center" valign="bottom">$50</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$95</td>
+  </tr>
+
+  <tr>
+    <td><strong>Manicotti</strong><br /></td> <td align="center" valign="bottom">$45</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$85</td>
+  </tr>
+  <tr>
+    <td><strong>Stuffed Shells</strong><br /></td> <td align="center" valign="bottom">$45</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$85</td>
+  </tr>
+  <tr>
+    <td><strong>Ravioli</strong><br /></td> <td align="center" valign="bottom">$45</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$85</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken Cutlet Parmigiana</strong><br /></td> <td align="center" valign="bottom">$55</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$105</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken Francese</strong><br /></td> <td align="center" valign="bottom">$55</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$105</td>
+  </tr>
+  <tr>
+    <td><strong>Chicken Marsala with Mushrooms</strong><br /></td> <td align="center" valign="bottom">$55</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$105</td>
+  </tr>
+  <tr>
+    <td><strong>Shrimo Scampi, Marinara or Parm</strong><br /></td> <td align="center" valign="bottom">$70</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$135</td>
+  </tr>
+  <tr>
+    <td><strong>Veal Marsala with Mushrooms</strong><br /></td> <td align="center" valign="bottom">$70</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$135</td>
+  </tr>
+  <tr>
+    <td><strong>Veal Cutlet Parmigiana</strong><br /></td> <td align="center" valign="bottom">$65</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$125</td>
+  </tr>
+  <tr>
+    <td><strong>Eggplant Rollatinio</strong><br /></td> <td align="center" valign="bottom">$55</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$105</td>
+  </tr>
+  <tr>
+    <td><strong>Eggplant Parmigiana</strong><br /></td> <td align="center" valign="bottom">$50</td>   <td>&nbsp&nbsp&nbsp&nbsp</td>   <td align="right" valign="bottom">$95</td>
+  </tr>
+ <tr>
+    <td><br /></td> </tr> 
+  <tr>
+    <td>3 ft and 6 ft heroes are available as well as a selection of many dishes</td> </tr>   </table>
+            
+            <br />
+      
+            
+        <img src="dough.png" />
+
+
+        </div>
+
+
+
+
+</div>
+</div>
+
+</div> <!-- contentcenter -->
+
+</div> <!--left-container-->
+
+
+<div id="right-container">
+              <div class="heading-cont"><img class="img" src="../images/restaurant-pizza.jpg" width=800px>
+             </div>
+
+
+
+
+
+
+</div> <!-- container4 -->
+
+
+</body>
+</html>
